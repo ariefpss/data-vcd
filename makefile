@@ -2,7 +2,7 @@ start:
 	make compile && make run
 	
 compile:
-	javac Main.java
+	javac src/*.java lib/*.java Main.java -d .
 
 run:
 	java Main
